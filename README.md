@@ -2,7 +2,7 @@
 This app demonstrates the maxharris9:datepicker package.
 
 ## Installation
-I'm waiting a little while (for better CSS and complete unit tests) to push these packages up to the meteor server. In the meantime, you'll have to work a little harder to use this:
+I'm waiting a little while (for better CSS and complete unit tests) to push these packages up to the public meteor package server. In the meantime, you'll have to work a little harder to use this:
 
 	git clone https://github.com/maxharris9/maxharris9-template-instance-utils.git
 	git clone https://github.com/maxharris9/maxharris9-datepicker.git
