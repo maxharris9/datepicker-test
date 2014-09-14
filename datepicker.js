@@ -7,9 +7,7 @@ if (Meteor.isClient) {
 				Template.datePicker.setup('12/2/1980', function (date) {
 					Dates.insert( { 'newDate': date } );
 					console.log('saved, with this date:', date);
-				},
-
-				'editableDateControl' );
+				}, 'editableDateControl', 12, 32);
 			}
 		}
 	});
