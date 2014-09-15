@@ -9,6 +9,11 @@ if (Meteor.isClient) {
 					console.log('saved, with this date:', date);
 				}, 'editableDateControl', 12, 32);
 			}
+
+			Template.textField.setup('',
+				function (text) {
+					console.log('saved, with this text:', text);
+				}, 'textFieldControl');
 		}
 	});
 }
