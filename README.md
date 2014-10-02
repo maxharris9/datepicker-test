@@ -12,10 +12,10 @@ I'm waiting a little while (for better CSS and complete unit tests) to push thes
 	ln -s ../../maxharris9:template-instance-utils .
 	ln -s ../../maxharris9:datepicker .
 	ln -s ../../maxharris9:textfield .
+	cd ..
 	meteor add maxharris9:template-instance-utils
 	meteor add maxharris9:datepicker
 	meteor add maxharris9:textfield
-	cd ..
 	
 ## Running
 
