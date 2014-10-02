@@ -9,9 +9,12 @@ I'm waiting a little while (for better CSS and complete unit tests) to push thes
 	git clone https://github.com/maxharris9/datepicker-test.git
 	git clone https://github.com/maxharris9/maxharris9-textfield.git
 	cd datepicker-test/packages/
-	ln -s ../../maxharris9:template-instance-utils .
-	ln -s ../../maxharris9:datepicker .
-	ln -s ../../maxharris9:textfield .
+	ln -s ../../maxharris9-template-instance-utils .
+	ln -s ../../maxharris9-datepicker .
+	ln -s ../../maxharris9-textfield .
+	mv maxharris9-template-instance-utils "maxharris9:template-instance-utils"
+	mv maxharris9-datepicker "maxharris9:datepicker"
+	mv maxharris9-textfield "maxharris9:textfield"
 	cd ..
 	meteor add maxharris9:template-instance-utils
 	meteor add maxharris9:datepicker
